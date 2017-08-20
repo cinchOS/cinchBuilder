@@ -1,0 +1,21 @@
+#!/bin/sh
+# postinst script for cinchBuilder
+#
+# see: dh_installdeb(1)
+
+set -e
+
+if [ -f /etc/cinchBuilder/isolinux/splash.png.saved ]
+then
+mv /etc/cinchBuilder/isolinux/splash.png.saved /etc/cinchBuilder/isolinux/splash.png
+fi
+
+
+if [ -f /etc/cinchBuilder.conf.old ]
+then
+mv /etc/cinchBuilder.conf.old /etc/cinchBuilder.conf
+fi
+
+exit 0
+
+

@@ -1,0 +1,10 @@
+Package: cinchbuilder
+Version: 1.0.0
+Architecture: all
+Maintainer: tohur <tohur@cinchos.org>
+Section: utils
+Priority: optional
+Depends: memtest86+, coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, ubiquity-frontend-debconf, user-setup, discover1 | discover, laptop-detect, syslinux, syslinux-common, util-linux, aufs-tools | unionfs-fuse, dpkg-dev, gksu, python (>= 2.7), python (<< 2.8), python:any (>= 2.7.1-0ubuntu2), python-glade2, python-vte, plymouth-x11
+Description: This script creates a livecd of the installed system and works with *buntu systems.
+ You can either make a distributable livecd or a backup of your system.
+Installed-Size: 11752

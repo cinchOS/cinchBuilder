@@ -1,0 +1,27 @@
+#!/bin/sh
+# preinst script for cinchBuilder
+#
+# see: dh_installdeb(1)
+
+set -e
+
+if [ -d /cinchBuilder ]
+then
+mv /cinchBuilder /home
+fi
+
+if [ -f /etc/cinchBuilder.conf ]
+then
+mv /etc/cinchBuilder.conf /etc/cinchBuilder.conf.old
+fi
+
+if [ -f /etc/cinchBuilder/isolinux/splash.png ]
+then
+mv /etc/cinchBuilder/isolinux/splash.png /etc/cinchBuilder/isolinux/splash.png.saved
+fi
+
+
+
+exit 0
+
+

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cinchBuilder-gtk
+Version: 4.3-3
+Summary: Ubuntu and variant system remaster. This is the alternate gtk gui for PinguyBuilder written in pygtk.
+Home-page: http://www.cinchos.org
+Author: Tony Brijeski
+Author-email: tb6517@yahoo.com
+License: GNU GPL
+Description: UNKNOWN
+Platform: linux

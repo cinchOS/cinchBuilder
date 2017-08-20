@@ -1,0 +1,9 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+from cinchBuildergtk import cinchBuilder_gtk
+
+if __name__ == '__main__':
+    os.chdir(os.path.dirname(os.path.realpath(cinchBuilder_gtk.__file__)))
+    #os.system('chmod a+x %s' % PinguyBuilder_gtk.__file__)
